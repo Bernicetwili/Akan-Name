@@ -21,7 +21,7 @@ function generateName(date, month, yearOfBirth) {
         return false;
     }
     else if (gender === "Female") {
-        document.getElementById("result").innerHTML = "Congratulations! You were born on " + dayOfWeek[dayOfBirth - 1] + " and your name is " + femaleName[dayOfBirth - 1];
+        document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1] + " and your name is " + femaleName[dayOfBirth - 1];
         document.getElementById('date').value = '';
         document.getElementById('month').value = '';
         document.getElementById('year').value = '';
