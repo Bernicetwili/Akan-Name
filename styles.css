@@ -64,3 +64,20 @@ button:hover{
     transform: translateY(-5px);
     background: palevioletred;
 }
+.form{
+    padding: 10%;
+    flex: 20%;
+}
+legend{
+    color: #ff4646;
+    font-size: 20px;
+}
+.column1{
+    padding-left: 5%;
+    font-size: 13px;
+}
+.min{
+    color: #ff4646;
+}
+
+

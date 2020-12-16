@@ -13,7 +13,6 @@
                 <nav>
                     <ul>
                         <li><a href="">HOME</a></li>
-                        <li><a href="">HOME</a></li>
                     </ul>
                 </nav>
             </div>
@@ -21,11 +20,28 @@
                 <div class="column">
                     <h1>Akan Name</h1>
                     <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
-                    <button type="button">Know your Akan name</button>
                 </div>
-                <div class="column"></div>
-            </div>
+                <div class="column1"></div>
+                   <form>
+                    <fieldset>
+                        <legend>Enter your details</legend>
+                        <div class="min">
+                        Date:<input type="number" id="date">
+                        Month:<input type="number" id="month">
+                        Year:<input type="number" id="year" maxlength="4">
+                        </div>
+                        <select id="gender">
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                        </select>
+                    </fieldset>
+                    <input type="submit" value="Submit" id="submitButton" class="btn btn-primary"
+                        onclick="verify();return false;" />
+                    <h2 class="text-center" id="result"></h2>
+                   </form>
+                </div>
+                </div>
         </div>
-
+      <script src="index.js"></script>
     </body>
 </html>
